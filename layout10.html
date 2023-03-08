@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAYOUT 3</title>
+    <title>LAYOUT 10</title>
     <style>
         body
         {
@@ -28,41 +28,55 @@
             height: 650px;
             background-color: blue;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: space-around;
         }
         .d2
         {
-            width: 150px;
-            height: 600px; 
-            background-color: yellow; 
+            width: 600px;
+            height: 150px;
+            background-color: yellow;
         }
         .d3
         {
-            width: 400px;
-            height: 600px; 
+            width: 600px;
+            height: 400px;
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            flex-direction: row;
+            justify-content: space-between; 
         }
         .d4
         {
-            width: 400px;
-            height: 150px;  
-            background-color: yellow; 
+            width: 150px;
+            height: 400px;
+            background-color: yellow;
         }
         .d5
         {
             width: 400px;
-            height: 400px;  
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+        }
+        .d6
+        {
+            width: 400px;
+            height: 150px;
+            background-color: yellow;
+        }
+        .d7
+        {
+            width: 400px;
+            height: 150px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
         }
-        .d6
+        .d
         {
             width: 150px;
-            height: 400px;
+            height: 150px;
             background-color: yellow;
         }
     </style>
@@ -71,12 +85,16 @@
     <div class="d1 center">
         <div class="d2"></div>
         <div class="d3">
-            <div class="d4"></div>
             <div class="d5">
                 <div class="d6"></div>
-                <div class="d6"></div>
+                <div class="d7">
+                    <div class="d"></div>
+                    <div class="d"></div>
+                </div>
             </div>
+            <div class="d4"></div>
         </div>
     </div>
+    
 </body>
 </html>

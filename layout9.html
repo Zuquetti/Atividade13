@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAYOUT 3</title>
+    <title>LAYOUT 9</title>
     <style>
         body
         {
@@ -28,41 +28,41 @@
             height: 650px;
             background-color: blue;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: space-around;
         }
         .d2
         {
-            width: 150px;
-            height: 600px; 
-            background-color: yellow; 
+            width: 600px;
+            height: 150px;
+            background-color: yellow;
         }
         .d3
         {
-            width: 400px;
-            height: 600px; 
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        .d4
-        {
-            width: 400px;
-            height: 150px;  
-            background-color: yellow; 
-        }
-        .d5
-        {
-            width: 400px;
-            height: 400px;  
+            width: 600px;
+            height: 400px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
         }
-        .d6
+        .da
         {
             width: 150px;
             height: 400px;
+            background-color: yellow;
+        }
+        .d4
+        {
+            width: 150px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .db
+        {
+            width: 150px;
+            height: 150px;
             background-color: yellow;
         }
     </style>
@@ -71,11 +71,12 @@
     <div class="d1 center">
         <div class="d2"></div>
         <div class="d3">
-            <div class="d4"></div>
-            <div class="d5">
-                <div class="d6"></div>
-                <div class="d6"></div>
+            <div class="da"></div>
+            <div class="d4">
+                <div class="db"></div>
+                <div class="db"></div>
             </div>
+            <div class="da"></div>
         </div>
     </div>
 </body>
