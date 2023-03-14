@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT 16</title>
+    <style>
+         body
+        {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            justify-items: center;
+            align-items: center;
+        }
+        .center
+        {
+            justify-items: center;
+            align-content: center;
+            align-items: center;
+        }
+        .d1
+        {
+            width: 750px;
+            height: 650px;
+            background-color: blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .d2
+        {
+            width: 600px;
+            height: 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .da
+        {
+            width: 150px;
+            height: 150px;
+            background-color: yellow; 
+        }
+        .d3
+        {
+            width: 600px;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+        }
+        .d4
+        {
+            width: 400px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .d5
+        {
+            width: 150px;
+            height: 400px;
+            background-color: yellow;
+        }
+        .db
+        {
+            width: 400px;
+            height: 150px;
+            background-color: yellow
+        }
+    </style>
+</head>
+<body>
+    <div class="d1 center">
+        <div class="d2">
+            <div class="da"></div>
+            <div class="da"></div>
+            <div class="da"></div>
+        </div>
+        <div class="d3">
+            <div class="d4">
+                <div class="db"></div>
+                <div class="db"></div>
+            </div>
+            <div class="d5"></div>
+        </div>
+    </div>
+</body>
+</html>
